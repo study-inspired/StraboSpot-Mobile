@@ -1,0 +1,134 @@
+[
+ {
+   "list_name": "to0mv13",
+   "name": "fabric___micro",
+   "label": "fabric / microstructure",
+   "order": 0
+ },
+ {
+   "list_name": "to0mv13",
+   "name": "petrology",
+   "label": "petrology",
+   "order": 1
+ },
+ {
+   "list_name": "to0mv13",
+   "name": "geochronology",
+   "label": "geochronology",
+   "order": 2
+ },
+ {
+   "list_name": "to0mv13",
+   "name": "geochemistry",
+   "label": "geochemistry",
+   "order": 3
+ },
+ {
+   "list_name": "to0mv13",
+   "name": "other",
+   "label": "other",
+   "order": 4
+ },
+ {
+   "list_name": "jq8qd30",
+   "name": "intact_rock",
+   "label": "intact rock",
+   "order": 0
+ },
+ {
+   "list_name": "jq8qd30",
+   "name": "fragmented_roc",
+   "label": "fragmented rock",
+   "order": 1
+ },
+ {
+   "list_name": "jq8qd30",
+   "name": "sediment",
+   "label": "sediment",
+   "order": 2
+ },
+ {
+   "list_name": "jq8qd30",
+   "name": "tephra",
+   "label": "tephra",
+   "order": 3
+ },
+ {
+   "list_name": "jq8qd30",
+   "name": "other",
+   "label": "other",
+   "order": 4
+ },
+ {
+   "list_name": "fc6dz57",
+   "name": "5___definitely",
+   "label": "5 - definitely in place",
+   "order": null
+ },
+ {
+   "list_name": "fc6dz57",
+   "name": "4",
+   "label": "4",
+   "order": null
+ },
+ {
+   "list_name": "fc6dz57",
+   "name": "3",
+   "label": "3",
+   "order": null
+ },
+ {
+   "list_name": "fc6dz57",
+   "name": "2",
+   "label": "2",
+   "order": null
+ },
+ {
+   "list_name": "fc6dz57",
+   "name": "1___float",
+   "label": "1 - float",
+   "order": null
+ },
+ {
+   "list_name": "hz9zw76",
+   "name": "yes",
+   "label": "Yes",
+   "order": null
+ },
+ {
+   "list_name": "hz9zw76",
+   "name": "no",
+   "label": "No",
+   "order": null
+ },
+ {
+   "list_name": "sl0bq45",
+   "name": "5___fresh",
+   "label": "5 - fresh",
+   "order": null
+ },
+ {
+   "list_name": "sl0bq45",
+   "name": "4",
+   "label": "4",
+   "order": null
+ },
+ {
+   "list_name": "sl0bq45",
+   "name": "3",
+   "label": "3",
+   "order": null
+ },
+ {
+   "list_name": "sl0bq45",
+   "name": "2",
+   "label": "2",
+   "order": null
+ },
+ {
+   "list_name": "sl0bq45",
+   "name": "1___highly_wea",
+   "label": "1 - highly weathered",
+   "order": null
+ }
+]

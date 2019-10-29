@@ -7,9 +7,10 @@ import {connect} from "react-redux";
 import SectionDivider from "../../shared/ui/SectionDivider";
 
 // Styles
-import styles from './samples.style';
+import styles from './samplesStyles/samples.style';
 import * as themes from '../../shared/styles.constants';
 import {homeReducers, Modals} from "../../views/home/Home.constants";
+import {spotReducers} from "../../spots/Spot.constants";
 
 const samplesNotebookView = (props) => {
 
@@ -32,6 +33,12 @@ const samplesNotebookView = (props) => {
   //     </View>
   //   );
   // };
+
+  const sampleDetail = (item) => {
+    console.log('samples item pressed', item.id, item.sample_id_name);
+    props.setSelectedAttributes([item]);
+    props.setNotebookPageVisible(NotebookPages.SAMPLE_DETAIL)
+  };
 
   const renderSampleList = () => {
     return props.spot.properties.samples.map(item => {
@@ -57,7 +64,7 @@ const samplesNotebookView = (props) => {
               name='ios-information-circle-outline'
               type='ionicon'
               color={themes.PRIMARY_ACCENT_COLOR}
-              onPress={() => console.log('Samples item pressed', item.id, item.label)}
+              onPress={() => sampleDetail(item)}
             />}
         />
         </View>
@@ -115,6 +122,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = {
   setNotebookPageVisible: (page) => ({type: notebookReducers.SET_NOTEBOOK_PAGE_VISIBLE, page: page}),
   setModalVisible: (modal) => ({type: homeReducers.SET_MODAL_VISIBLE, modal: modal}),
+  setSelectedAttributes: (attributes) => ({type: spotReducers.SET_SELECTED_ATTRIBUTES, attributes: attributes})
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(samplesNotebookView);

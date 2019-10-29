@@ -1,0 +1,202 @@
+[
+ {
+   "type": "start",
+   "name": "start",
+   "label": "",
+   "hint": "",
+   "required": null,
+   "relevant": "",
+   "appearance": "",
+   "calculation": ""
+ },
+ {
+   "type": "end",
+   "name": "end",
+   "label": "",
+   "hint": "",
+   "required": null,
+   "relevant": "",
+   "appearance": "",
+   "calculation": ""
+ },
+ {
+   "type": "text",
+   "name": "label",
+   "label": "Label",
+   "hint": "If a label is not specified a default label will be given.",
+   "required": false,
+   "relevant": "",
+   "appearance": "",
+   "calculation": ""
+ },
+ {
+   "type": "text",
+   "name": "sample_id_name",
+   "label": "Sample Specific ID/Name",
+   "hint": "",
+   "required": false,
+   "relevant": "",
+   "appearance": "",
+   "calculation": ""
+ },
+ {
+   "type": "select_one to0mv13",
+   "name": "main_sampling_purpose",
+   "label": "Main Sampling Purpose",
+   "hint": "",
+   "required": false,
+   "relevant": "",
+   "appearance": "",
+   "calculation": ""
+ },
+ {
+   "type": "text",
+   "name": "sample_description",
+   "label": "Sample Description",
+   "hint": "",
+   "required": false,
+   "relevant": "",
+   "appearance": "",
+   "calculation": ""
+ },
+ {
+   "type": "select_one jq8qd30",
+   "name": "material_type",
+   "label": "Material Type",
+   "hint": "",
+   "required": false,
+   "relevant": "",
+   "appearance": "",
+   "calculation": ""
+ },
+ {
+   "type": "text",
+   "name": "sample_type",
+   "label": "Sample Type ",
+   "hint": "",
+   "required": false,
+   "relevant": "${material_type} = 'tephra'",
+   "appearance": "",
+   "calculation": ""
+ },
+ {
+   "type": "text",
+   "name": "color",
+   "label": "Color",
+   "hint": "",
+   "required": false,
+   "relevant": "${material_type} = 'tephra'",
+   "appearance": "",
+   "calculation": ""
+ },
+ {
+   "type": "text",
+   "name": "lithology",
+   "label": "Lithology",
+   "hint": "",
+   "required": false,
+   "relevant": "${material_type} = 'tephra'",
+   "appearance": "",
+   "calculation": ""
+ },
+ {
+   "type": "text",
+   "name": "sample_unit",
+   "label": "Sample Unit",
+   "hint": "",
+   "required": false,
+   "relevant": "${material_type} = 'tephra'",
+   "appearance": "",
+   "calculation": ""
+ },
+ {
+   "type": "text",
+   "name": "other_material_type",
+   "label": "Other Material Type",
+   "hint": "",
+   "required": true,
+   "relevant": "${material_type} = 'other'",
+   "appearance": "",
+   "calculation": ""
+ },
+ {
+   "type": "select_one fc6dz57",
+   "name": "inplaceness_of_sample",
+   "label": "Inplaceness of Sample",
+   "hint": "",
+   "required": false,
+   "relevant": "",
+   "appearance": "",
+   "calculation": ""
+ },
+ {
+   "type": "select_one hz9zw76",
+   "name": "oriented_sample",
+   "label": "Oriented Sample",
+   "hint": "",
+   "required": false,
+   "relevant": "",
+   "appearance": "",
+   "calculation": ""
+ },
+ {
+   "type": "text",
+   "name": "sample_orientation_notes",
+   "label": "Sample Orientation Notes",
+   "hint": "",
+   "required": false,
+   "relevant": "${oriented_sample} = 'yes'",
+   "appearance": "multiline",
+   "calculation": ""
+ },
+ {
+   "type": "text",
+   "name": "sample_size",
+   "label": "Sample Size",
+   "hint": "",
+   "required": false,
+   "relevant": "",
+   "appearance": "",
+   "calculation": ""
+ },
+ {
+   "type": "text",
+   "name": "other_sampling_purpose",
+   "label": "Other Sampling Purpose",
+   "hint": "",
+   "required": true,
+   "relevant": "${main_sampling_purpose} = 'other'",
+   "appearance": "",
+   "calculation": ""
+ },
+ {
+   "type": "select_one sl0bq45",
+   "name": "degree_of_weathering",
+   "label": "Degree of Weathering",
+   "hint": "",
+   "required": false,
+   "relevant": "",
+   "appearance": "",
+   "calculation": ""
+ },
+ {
+   "type": "text",
+   "name": "sample_notes",
+   "label": "Sample Notes",
+   "hint": "",
+   "required": false,
+   "relevant": "",
+   "appearance": "multiline",
+   "calculation": ""
+ },
+ {
+   "type": "calculate",
+   "name": "__version__",
+   "label": "",
+   "hint": "",
+   "required": null,
+   "relevant": "",
+   "appearance": "",
+   "calculation": "'vNfqQAU7Z6kLFhUKgfUx33'"
+ }
+]
