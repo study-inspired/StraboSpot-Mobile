@@ -9,6 +9,7 @@ import MeasurementsPage from '../measurements/Measurements';
 import MeasurementDetailPage from '../measurements/MeasurementDetail';
 import NotesPage from '../notes/Notes.view';
 import SamplesPage from '../samples/SamplesNotebook.view';
+import SampleDetailsPage from '../samples/SampleDetail';
 import {notebookReducers, NotebookPages} from "./Notebook.constants";
 import {homeReducers, Modals} from "../../views/home/Home.constants";
 import {isEmpty} from "../../shared/Helpers";
@@ -91,6 +92,7 @@ const NotebookPanel = props => {
                 {props.notebookPageVisible === NotebookPages.MEASUREMENTDETAIL ? <MeasurementDetailPage/> : null}
                 {props.notebookPageVisible === NotebookPages.NOTE ? <NotesPage/> : null}
                 {props.notebookPageVisible === NotebookPages.SAMPLE ? <SamplesPage/> : null}
+                {props.notebookPageVisible === NotebookPages.SAMPLE_DETAIL ? <SampleDetailsPage/> : null}
               </View>
               <View  style={props.isAllSpotsPanelVisible ? [notebookStyles.footerContainer, {marginRight: 125}] :
                 notebookStyles.footerContainer}>
