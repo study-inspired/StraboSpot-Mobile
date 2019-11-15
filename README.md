@@ -4,7 +4,7 @@ Rewrite for native.
 Running for development:
 
 - Create a `.env` file at the root
-- Add
+- Add.
 
       USERNAME_TEST = 'your username/email'
       PASSWORD_TEST = 'your password'
