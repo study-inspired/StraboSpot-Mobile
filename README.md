@@ -1,5 +1,5 @@
 # StraboSpot-Mobile
-Rewrite for native.
+Rewrite for native!
 
 Running for development:
 
